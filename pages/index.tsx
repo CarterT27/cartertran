@@ -43,9 +43,11 @@ const Home: NextPage = () => {
             </div>
             <div className="collapse-content">
               <p>
-                I am currently going to BASIS Chandler, ranked #8 in the nation by the US News and World Report.
-                By the end of this year I will have taken 17 AP exams, 10 of them having been taken in grades 8-10.
-                I am also a member of the National Honor Society, Tri-M Music Honor Society, and Hack Club.
+                I am currently going to BASIS Chandler, ranked #8 in the nation
+                by the US News and World Report. By the end of this year I will
+                have taken 17 AP exams, 10 of them having been taken in grades
+                8-10. I am also a member of the National Honor Society, Tri-M
+                Music Honor Society, and Hack Club.
               </p>
             </div>
           </div>
@@ -55,8 +57,9 @@ const Home: NextPage = () => {
             </div>
             <div className="collapse-content">
               <p>
-                I have experience programming in Java, Python, C++, HTML, CSS, and Javascript.
-                I am currently pursuing a MicroBachelors from NYU in Programming &amp; Data Structures on Edx.
+                I have experience programming in Java, Python, C++, HTML, CSS,
+                and Javascript. I am currently pursuing a MicroBachelors from
+                NYU in Programming &amp; Data Structures on EdX.
               </p>
             </div>
           </div>
@@ -66,7 +69,8 @@ const Home: NextPage = () => {
             </div>
             <div className="collapse-content">
               <p>
-                I train at least two hours every day with the goal of playing tennis at the college level.
+                I train at least two hours every day with the goal of playing
+                tennis at the college level.
               </p>
             </div>
           </div>
@@ -76,13 +80,14 @@ const Home: NextPage = () => {
             </div>
             <div className="collapse-content">
               <p>
-                I have been a musician for as long as I can remember.
-                I grew up playing piano.
-                In 4th grade I started learning how to play the violin.
-                In 5th grade I became a percussionist.
-                Although I don't play piano or violin anymore, I continue to play the drums and mallet percussion.
-                I am the section leader of the BASIS Chandler Symphonic Wind Ensemble.
-                I was in Honor Band in 7th grade, Regionals in 9th and 10th grade, and eventually will play in All-State.
+                I have been a musician for as long as I can remember. I grew up
+                playing piano. In 4th grade I started learning how to play the
+                violin. In 5th grade I became a percussionist. Although I don't
+                play piano or violin anymore, I continue to play the drums and
+                mallet percussion. I am the section leader of the BASIS Chandler
+                Symphonic Wind Ensemble. I was in Honor Band in 7th grade,
+                Regionals in 9th and 10th grade, and eventually will play in
+                All-State.
               </p>
             </div>
           </div>
