@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import React from 'react'
 import styles from '../styles/Home.module.css'
+import Typical from 'react-typical'
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +20,17 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          student, programmer, athlete, musician
+          I'm a
+          <Typical
+            loop={Infinity}
+            wrapper='typical'
+            steps={[
+              ' student 📚', 1000,
+              ' developer 💻', 1000,
+              'n athlete 🎾', 1000,
+              ' musician 🥁', 1000,
+            ]}
+          />
         </p>
 
       </main>
