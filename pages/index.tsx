@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Typical from "react-typical";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home: NextPage = () => {
   return (
@@ -38,7 +39,7 @@ const Home: NextPage = () => {
         </div>
 
         <div id="skills">
-          <h2 className="text-2xl">About Me</h2>
+          <h2 className="text-3xl">About Me</h2>
           <div tabIndex={0} className="collapse w-96">
             <div className="collapse-title text-xl font-medium">
               Junior at BASIS Chandler
@@ -51,7 +52,7 @@ const Home: NextPage = () => {
                 8-10. I am also a member of the National Honor Society, Tri-M
                 Music Honor Society, and Hack Club.
               </p>
-              <button className="btn btn-outline mt-3">Learn More</button>
+                <Link className="btn btn-outline btn-primary mt-2" activeClass="active" to="education" spy={true} smooth={true} offset={-70} duration={500}>Learn More</Link>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -64,7 +65,7 @@ const Home: NextPage = () => {
                 and Javascript. I am currently pursuing a MicroBachelors from
                 NYU in Programming &amp; Data Structures on EdX.
               </p>
-              <button className="btn btn-outline btn-primary mt-3">Continue</button>
+              <Link className="btn btn-outline btn-primary mt-2" activeClass="active" to="programming" spy={true} smooth={true} offset={-70} duration={500}>Next( )</Link>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -76,7 +77,7 @@ const Home: NextPage = () => {
                 I train at least two hours every day with the goal of playing
                 tennis at the college level.
               </p>
-              <button className="btn btn-outline btn-secondary mt-3">Up or Down</button>
+              <Link className="btn btn-outline btn-primary mt-2" activeClass="active" to="tennis" spy={true} smooth={true} offset={-70} duration={500}>Second Serve</Link>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -94,21 +95,21 @@ const Home: NextPage = () => {
                 Regionals in 9th and 10th grade, and eventually will play in
                 All-State.
               </p>
-              <button className="btn btn-outline btn-accent mt-3">Dal Segno</button>
+              <Link className="btn btn-outline btn-primary mt-2" activeClass="active" to="music" spy={true} smooth={true} offset={-70} duration={500}>Next Measure</Link>
             </div>
           </div>
         </div>
-        <div id="Education">
-
+        <div id="education" className="h-screen">
+          <h2 className="text-2xl">Education</h2>
         </div>
-        <div id="Programming">
-
+        <div id="programming" className="h-screen">
+          <h2 className="text-2xl">Programming</h2>
         </div>
-        <div id="Tennis">
-
+        <div id="tennis" className="h-screen">
+          <h2 className="text-2xl">Tennis</h2>
         </div>
-        <div id="Music">
-          
+        <div id="music" className="h-screen">
+          <h2 className="text-2xl">Music</h2>
         </div>
       </main>
 
