@@ -36,7 +36,9 @@ const Home: NextPage = () => {
             />
           </p>
         </div>
+
         <div id="skills">
+          <h2 className="text-2xl">About Me</h2>
           <div tabIndex={0} className="collapse w-96">
             <div className="collapse-title text-xl font-medium">
               Junior at BASIS Chandler
@@ -49,6 +51,7 @@ const Home: NextPage = () => {
                 8-10. I am also a member of the National Honor Society, Tri-M
                 Music Honor Society, and Hack Club.
               </p>
+              <button className="btn btn-outline mt-3">Learn More</button>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -61,6 +64,7 @@ const Home: NextPage = () => {
                 and Javascript. I am currently pursuing a MicroBachelors from
                 NYU in Programming &amp; Data Structures on EdX.
               </p>
+              <button className="btn btn-outline btn-primary mt-3">Continue</button>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -72,6 +76,7 @@ const Home: NextPage = () => {
                 I train at least two hours every day with the goal of playing
                 tennis at the college level.
               </p>
+              <button className="btn btn-outline btn-secondary mt-3">Up or Down</button>
             </div>
           </div>
           <div tabIndex={0} className="collapse w-96">
@@ -89,8 +94,21 @@ const Home: NextPage = () => {
                 Regionals in 9th and 10th grade, and eventually will play in
                 All-State.
               </p>
+              <button className="btn btn-outline btn-accent mt-3">Dal Segno</button>
             </div>
           </div>
+        </div>
+        <div id="Education">
+
+        </div>
+        <div id="Programming">
+
+        </div>
+        <div id="Tennis">
+
+        </div>
+        <div id="Music">
+          
         </div>
       </main>
 
