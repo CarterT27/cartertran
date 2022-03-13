@@ -113,7 +113,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="items-center p-4 footer text-base-content">
+      <footer className="p-4 footer text-base-content justify-items-center md:justify-items-start">
         <div className="items-center grid-flow-col">
           <svg
             width="36"
